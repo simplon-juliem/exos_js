@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Liste des prénoms</title>
+  <link rel="stylesheet" href="liste.css">
+</head>
+<body>
+  <div id="boite">
+    <form id="checkbox">
+  <!-- donner le même name pour que chaque bouton radio s'affiche seule -->
+      <input type="radio" value="0" id="btTout" name="bt" onclick="tri('gars','block','vert');tri('fille', 'block', 'vert');" >Tout</>
+      <input type="radio" value ="1" id="btGars" name="bt" onclick="tri('gars','block','bleu');tri('fille', 'none','bleu');" >Garçons</>
+      <input type="radio" value ="2" id="btFilles" name="bt" onclick="tri('fille','block','rose');tri('gars','none','rose');">Filles</>
+    </form>
+  <ul id="prenoms">
+  	<li class="gars">Tony</li>
+  	<li class="fille">Charlotte</li>
+    <li class="fille">Laure</li>
+    <li class="gars">Fred</li>
+    <li class="fille">Marie</li>
+    <li class="fille">Sarah</li>
+    <li class="gars">Arthur</li>
+  </ul>
+</div>
+  <script src="liste.js"></script>
+</body>
+</html>

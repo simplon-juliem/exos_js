@@ -1,0 +1,24 @@
+/* css pour la version 1 */
+/*.gars{
+  color: blue;
+}
+
+.fille{
+ color: red;
+}*/
+
+.rose{
+    background-color:#FF9999;
+}
+
+.bleu{
+    background-color:#6699FF;
+}
+
+.vert{
+    background-color: #38978D;
+}
+
+#boite{
+    display: inline-block;
+}
