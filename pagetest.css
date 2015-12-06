@@ -1,0 +1,14 @@
+textarea {
+  width: 80%;
+  display: block;
+  overflow: hidden;
+  height: 80px;
+   color: #000;
+}
+
+#editCode {
+    color: #fff;
+    width: 49%;
+    float: left;
+    border-radius: 20px;
+}

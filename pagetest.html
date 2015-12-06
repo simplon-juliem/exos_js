@@ -1,0 +1,30 @@
+<DOCTYPE! html>
+<meta charset="utf-8">
+<html>
+
+  <head>
+    <title>Page de test HTML et JS</title>
+  </head>
+
+  <body>
+    <script src="pagetest.js"></script>
+    <link rel="stylesheet" href="pagetest.css">
+    <div id="testHTML"></div>
+    <div id="editCode"></div>
+      <fieldset>
+        <legend>Code HTML</legend>
+        <textarea id="txtHTML" name="Name" rows="8" cols="40" placeholder="Écrire le code Html ici"></textarea>
+        <input type="button" value="insérer le HTML" onclick="addHTML()";/>
+        <input type="button" value="supprimer le HTML" onclick="resetHTML()";/>
+      </fieldset>
+
+
+      <fieldset>
+        <legend>Code JavaScript</legend>
+        <textarea id="txtJS" name="Name" rows="8" cols="40" placeholder="Écrire le code javascript ici"></textarea>
+        <input type="button" value="insérer le JavaScript" onclick="addJS()";/>
+      </fieldset>
+
+    </div>
+  </body>
+</html>
